@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.counter-color{
+    color: white;
+}
+.main-hedaing{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.disp-content{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.number{
+    margin-left: 20px;
+    font-size: 24px;
+}
+.app-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.background-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    border: 5px solid goldenrod;
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    background-size: cover;
+}
+.btn-container{
+    display: flex;
+}
+.btn-body{
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.startContainer{
+    display: flex;
+    align-items: center;
+}
+.inputBox{
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.timerStyle{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.timeContainer{
+    display: flex;
+    align-items: center;
+}
+.timerInput{
+    margin-left: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.counterStyle{
+    color: white;
+}
+.buttonContainter{
+    display: flex;
+}
+
+.hideRoman{
+    color:  gray;
+}

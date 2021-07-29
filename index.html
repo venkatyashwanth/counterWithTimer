@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class='app-body'>
+    <div class='background-body'>
+      <div class='timeContainer'>
+        <p class='timerStyle'>Set Timer: </p>
+        <input type='text' class='timerInput' placeholder="in seconds" id='timerStart'/>
+      </div>
+      <div class='buttonContainter'>
+        <button class='btn-body' onclick="startAction()" id='startBtnEl'>Start Timer</button>
+        <button class='btn-body' onclick="pauseTimer()" id='pauseBtnEl'>Pause Timer</button>
+        <button class='btn-body' onclick="endTimer()" id='clearBtnEl'>Clear Timer</button>
+      </div>
+      <p class='counterStyle' id='timer'>--</p>
+      <div class='startContainer'>
+        <p class='main-hedaing'>Start counter from: </p>
+        <input type='text' id='startPoint' class='inputBox'/>
+      </div>
+      <div class='disp-content'>
+        <p>Counter: </p>
+        <p class='number' id='numericalItem'>0</p>
+      </div>
+      <p class='counter-color' id='romanNumberEq'>Roman Numeral equivalent is <span id='romanNumeral'></span></p>
+      <button id='hideButton' class='btn-body'>Show/Hide</button>
+      <div class='btn-container'>
+        <button class='btn-body' onclick=onIncrement()>+</button>
+        <button class='btn-body' onclick=onReset()>Reset</button>
+        <button class='btn-body' onclick=onDecrement()>-</button>
+      </div>
+      <script src="index.js"></script>
+  </div>
+</div>
+  </body>
+</html>
